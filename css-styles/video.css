@@ -1,0 +1,371 @@
+.videoPlay{
+    display: flex;
+}
+
+
+.blackBlock{
+    flex: 1;
+    background-color: rgb(55, 55, 55);
+    box-shadow: inset 1px 2px 3px rgba(0,0,0,0.05);
+}
+
+.videoPicture{
+    height: 500px;
+}
+
+.videoStatsAndOtherLinks{
+    display: flex;
+}
+
+.antrasArticle{
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    padding-right: 100px;
+    background-color: rgb(187, 161, 119);
+}
+
+.visiButton{
+    background-color: white;
+    width: 52px;
+    height: 32px;
+    font-weight: 600;
+    border-radius: 10px;
+    border: none;
+    margin-right: 2px;
+}
+
+.javaButton{
+    background-color: rgb(146, 133, 111);
+    color: white;
+    border-radius: 10px;
+    border: none;
+    height: 32px;
+    font-weight: 600;
+    padding: 0px 10px;
+    margin-right: 2px;
+}
+
+.susijeButton{
+    background-color: rgb(146, 133, 111);
+    color: white;
+    border-radius: 10px;
+    border: none;
+    height: 32px;
+    font-weight: 600;
+    padding: 0px 10px;
+    margin-right: 2px;
+}
+
+.kitasButton{
+    background-color: rgb(146, 133, 111);
+    color: white;
+    border-radius: 10px;
+    border: none;
+    height: 32px;
+    font-weight: 600;
+    padding: 0px 10px;
+}
+
+.reklama{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    margin-bottom: 9px;
+}
+
+.medihubReklama{
+    width: 168px;
+    border-radius: 10px;
+}
+
+.reklamosTekstas{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding-left: 6px;
+}
+
+.MedihubButton{
+    background-color: #1c5587;
+    color: #3ea6ff;
+    border: none;
+    height: 32px;
+    width: 190px;
+    border-radius: 15px;
+    font-weight: 600;
+    position: absolute;
+    bottom: 0;
+}
+
+
+.allThumbnails{
+    display: flex;
+    flex-direction: column;
+}
+
+.thumbnails{
+    padding: 3px 0px;
+    display: flex;
+    flex-direction: row;
+}
+
+.thumbnailTekstas{
+    padding-left: 6px;
+}
+
+
+.pirmasArticle{
+    flex: 1;
+    flex-direction: column;
+    min-width: 400px;
+    background-color: rgb(187, 161, 119);
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.videoChanelBar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 8px;
+    margin-bottom: 10px;
+    justify-content: space-between;
+    padding-right: 18px;
+}
+
+.videoChanelBar div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.videoChanelBarPicture{
+    width: 40px;
+    border-radius: 20px;
+    margin-right: 8px;
+}
+
+.subscribeButton{
+    background-color: white;
+    height: 32px;
+    padding: 0px 13px;
+    border-radius: 20px;
+    border: none;
+    font-weight: 600;
+    font-size: 12px;
+}
+
+.likeButtonpicture{
+    width: 15px;
+    object-fit: cover;
+    margin: 0px 3px;
+    background-color: none;
+    margin-right: 6px;
+}
+
+.dislikeButtonPicture{
+    width: 15px;
+    object-fit: cover;
+    margin: 0px 3px;
+    background-color: none;
+    margin-right: 6px;
+}
+
+.likeButton{
+    background-color: rgb(136, 136, 136);
+    height: 34px;
+    font-weight: 600;
+    border: none;
+    border-top-left-radius: 17px;
+    border-bottom-left-radius: 17px;
+    padding-right: 20px;
+}
+
+.dislikeButton{
+    background-color: rgb(136, 136, 136);
+    height: 34px;
+    font-weight: 600;
+    border: none;
+    border-top-right-radius: 17px;
+    border-bottom-right-radius: 17px;
+    padding-right: 10px;
+    border-left: 1px solid rgb(115, 115, 115);
+}
+
+.bendrintiButton{
+    background-color: rgb(136, 136, 136);
+    height: 34px;
+    font-weight: 600;
+    border: none;
+    border-radius: 17px;
+    padding-right: 12px;
+    padding-left: 12px;
+}
+
+.taskaiButton{
+    background-color: rgb(136, 136, 136);
+    height: 34px;
+    font-weight: 600;
+    border: none;
+    border-radius: 17px;
+    padding-right: 12px;
+    padding-left: 12px;
+    vertical-align: middle;
+}
+
+.likeButton:hover{
+    background-color: rgb(132, 132, 132);
+}
+
+.videoInfoContainer{
+    padding: 10px;
+    margin-right: 20px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(154, 132, 95);
+    border-radius: 10px;
+    font-size: 14px;
+}
+
+
+.sortByButtonPicture{
+    width: 25px;
+}
+
+.sortByButton{
+    background-color: rgb(187, 161, 119);
+    border: none;
+    padding-top: 3px;
+}
+
+.writeCommentInputContainer{
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 20px;
+}
+
+.commentInput{
+    background-color: rgb(187, 161, 119);
+    height: 20px;
+    width: 100%;
+    margin-right: 15px;
+    margin-left: 12px;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 1px solid rgb(113, 113, 113);
+}
+
+.commentInput::placeholder{
+    font-size: 12px;
+    color: rgb(88, 88, 88);
+}
+
+.commentContainer{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 15px;
+}
+
+.commentContainer2{
+    display: flex;
+    flex-direction: column;
+    margin-left: 12px;
+}
+
+.channelName{
+    font-weight: bolder;
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+
+.uploadTime{
+    font-size: 12px;
+    color: rgb(88, 88, 88);
+    margin-left: 4px
+}
+
+.commentText{
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+
+.commentContainer3{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.likeButton1{
+    background-color: rgb(187, 161, 119);
+    border: none;
+    height: 24px;
+    width: 24px;
+    padding: 5px;
+    border-radius: 15px;
+}
+
+.likeCount{
+    font-size: 10px;
+    margin-right: 6px;
+    margin-left: 3px;
+}
+
+.dislikeButton1{
+    background-color: rgb(187, 161, 119);
+    border: none;
+    margin-right: 12px;
+    height: 24px;
+    width: 24px;
+    padding: 5px;
+    border-radius: 15px;
+}
+
+.atsakytiButton{
+    background-color: rgb(187, 161, 119);
+    border: none;
+    font-size: 10px;
+    font-weight: 600;
+    height: 24px;
+    border-radius: 12px;
+    padding-left: 9px;
+    padding-right: 9px;
+    transition: background-color 0.15s;
+}
+
+.atsakytiButton:hover{
+    background-color: rgb(110, 103, 91);
+}
+
+.answersButton{
+    color: rgb(36, 36, 36)
+    font-size: 12px;
+    font-weight: 600;
+    background-color: rgb(187, 161, 119);
+    height: 32px;
+    border-radius: 20px;
+    border: none;
+    width: 110px;
+    transition: background-color 0.15s;
+    transition: color 0.15s;
+    margin-top: 8px;
+}
+
+.answersButton:hover{
+    background-color: rgb(134, 116, 87);
+    color: rgb(199, 199, 199);
+}
+
+.skaitykiteDaugiau{
+    font-size: 14px;
+    margin-bottom: 10px;
+    font-weight: bolder;
+    color: rgb(85, 85, 85);
+    cursor: pointer;
+}
+
+.skaitykiteDaugiau:hover{
+    text-decoration: underline;
+}
